@@ -1,0 +1,13 @@
+.main {
+    height: 125px;
+    width: 100%;
+    border: 2px solid red;
+}
+.linkage {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
