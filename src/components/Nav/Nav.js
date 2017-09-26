@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import flag from '../../assets/country-flag.png';
 
 import './Nav.css';
 
@@ -8,13 +9,14 @@ const Nav = _ => {
         <div className="main-wrapper">
             <div className="top-nav">
                 <div className="top-left">
-
+                    <div className="us"><img src={flag} className="murica" alt=""/> US </div>
+                    <div className="support-dropdown">Support</div>
                 </div>
                 <div className="top-center">
-
+                    <span>Free Expedited Shipping and Free Returns</span>
                 </div>
                 <div className="top-right">
-                    
+                    <div className="top-right-dropdown"></div><div>Find Stores</div><div>My Account</div><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
                 </div>
             </div>
             <div className="main">
