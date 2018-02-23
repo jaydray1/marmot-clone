@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.18.2",
+    "font-awesome": "^4.7.0",
     "massive": "^4.2.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

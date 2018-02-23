@@ -33,11 +33,12 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #F4F4F4;
 }
 .top-center {
     font-size: 14px;
     font-weight: 550;
-    color: grey;
+    color: #424A3A;
 }
 .top-left {
     display: flex;
@@ -47,6 +48,7 @@ li {
     font-size: 12px;
     height: 62.5px;
     width: 168px;
+    color: #424A3A;
     border: 2px solid red;
 }
 .murica {
@@ -64,4 +66,5 @@ li {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    color: #424A3A;
 }

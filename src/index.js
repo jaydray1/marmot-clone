@@ -5,6 +5,7 @@ import {Provider} from 'react-redux';
 import store from './ducks/store';
 import Router from './router';
 import './index.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 
 ReactDOM.render(
