@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.big-banner {
+   min-height: 90%;
+   min-width: 1024px;
+
+   width: 100%;
+   height: auto;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+.main-sub-3 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+    height: 200px;
+    width: 100%;
+}

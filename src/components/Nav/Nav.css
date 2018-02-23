@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
 .main {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
