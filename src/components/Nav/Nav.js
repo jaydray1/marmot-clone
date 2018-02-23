@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import flag from '../../assets/country-flag.png';
+import marmotLetters from '../../assets/marmotLetters.svg';
 
 import './Nav.css';
 
@@ -19,7 +20,9 @@ const Nav = _ => {
                     <div className="top-right-dropdown"></div><div>Find Stores</div><div>My Account</div><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
                 </div>
             </div>
-            <div className="main">
+
+            <div className="main-nav">
+            <img src={marmotLetters} alt="logo" className="logo-small"/>
                 <div className="nav-header"> 
                 <ul>
                     <Link className="linkage" to="/men">
@@ -39,6 +42,7 @@ const Nav = _ => {
                     </Link>
                 </ul>
             </div>
+            <span className="nav-filler"></span>
             </div>
         </div>
         )
