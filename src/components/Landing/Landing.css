@@ -84,3 +84,29 @@
 .fa-arrow-right {
     margin-left: 10px;
 }
+.pops {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    font-weight: 800;
+    margin-top: 37em;
+    max-width: 100%;
+}
+.season {
+    font-weight: 300;
+    margin-left: 10px;
+}
+.links-div {
+ display: flex;
+ justify-content: space-around;
+ width: 20%;
+ /* align-items: center; */
+ align-self: center;
+ font-size: 12px;
+ margin-top: 15px;
+}
+.links-nav {
+    color: black;
+    font-weight: 500;
+}

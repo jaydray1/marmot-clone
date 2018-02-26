@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import Nav from '../Nav/Nav';
-import banner from '../../assets/marmot-main.jpeg';
+import React from 'react';
+import { Link } from 'react-router-dom';
+// import banner from '../../assets/marmot-main.jpeg';
+import marmotGif from '../../assets/marmotFront.gif';
 import './Landing.css';
 import boxPic1 from '../../assets/box-1.jpeg';
 import boxPic2 from '../../assets/box-2.jpeg';
@@ -10,8 +11,10 @@ import backBox from '../../assets/backgroundBoxes.jpeg';
 const Landing = () => {
         return (
             <div className="main">
-                <img src={banner} alt="main-big" className="big-banner"/> 
+                <img src={marmotGif} alt="main-big" className="big-banner"/> 
+                
                     <div className="main-sub-3">
+                    
                     <img src={backBox} alt="back" className="back-box"/>
                         <div className="main-subs">
                             <img src={boxPic1} alt="media-ad" className="img-src" width="421" height="266"/>
@@ -38,7 +41,24 @@ const Landing = () => {
                             </div>
                         </div>
                     </div>
-            </div>
+                    <h2 className="pops">Popular<span className="season">This Season</span></h2>
+
+                <ul className="links-div">
+                    <Link className="links" to="/men">
+                    <li className="links-nav">MEN</li>
+                    </Link>
+                    <Link className="links" to="/women">
+                    <li className="links-nav">WOMEN</li>
+                    </Link>
+                    <Link className="links" to="/kids">
+                    <li className="links-nav">KIDS</li>
+                    </Link>
+                    <Link className="links" to="/equipment">
+                    <li className="links-nav">EQUIPMENT</li>
+                    </Link>
+                </ul>
+                </div>
+                
         )
     }
 
