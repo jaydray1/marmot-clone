@@ -33,6 +33,7 @@
     margin: 5px -10px 5px -10px;
     border: 2px solid purple;
     cursor: pointer;
+    margin-left: 15.5px;
     width: 421px;
     height: 266px;
 }
@@ -109,4 +110,32 @@
 .links-nav {
     color: black;
     font-weight: 500;
+}
+.explore-others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 286px;
+    width: 100%;
+}
+.explore-button {
+    background-color: white;
+    width: 225px;
+    height: 50px;
+    font-size: 12px;
+    border: 3px solid black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.explore-button:hover {
+    background-color: #CC0000;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.adventures {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
 }

@@ -8,6 +8,8 @@ import boxPic2 from '../../assets/box-2.jpeg';
 import boxPic3 from '../../assets/box-3.jpeg';
 import backBox from '../../assets/backgroundBoxes.jpeg';
 
+import Carousel from '../Carousel/Carousel';
+
 const Landing = () => {
         return (
             <div className="main">
@@ -57,6 +59,11 @@ const Landing = () => {
                     <li className="links-nav">EQUIPMENT</li>
                     </Link>
                 </ul>
+                <Carousel />
+                <div className="explore-others">
+                    <button className="explore-button">view all popular items</button>
+                </div>
+                <h2 className="adventures">Explore<span className="season">Adventures</span></h2>
                 </div>
                 
         )
