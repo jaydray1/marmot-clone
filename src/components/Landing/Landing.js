@@ -7,8 +7,12 @@ import boxPic1 from '../../assets/box-1.jpeg';
 import boxPic2 from '../../assets/box-2.jpeg';
 import boxPic3 from '../../assets/box-3.jpeg';
 import backBox from '../../assets/backgroundBoxes.jpeg';
+import adventure1 from '../../assets/adventure1.jpg';
+import adventure2 from '../../assets/adventure2.jpg';
+import adventure3 from '../../assets/adventure3.jpg';
 
 import Carousel from '../Carousel/Carousel';
+import Adventures from '../Adventures/Adventures';
 
 const Landing = () => {
         return (
@@ -64,6 +68,32 @@ const Landing = () => {
                     <button className="explore-button">view all popular items</button>
                 </div>
                 <h2 className="adventures">Explore<span className="season">Adventures</span></h2>
+                <div className="adventures-elements">
+                    <Adventures 
+                    imageName={adventure1}
+                    categoryHeader="inspirational"
+                    titleHeader="The 7 Best National Parks for Last-Minute Camping Trips"
+                    tileDescription="Craving a quick getaway into the great outdoors? Here, the 7 best national parks for last-minute camping trips."
+                    className="adventure-display"
+                    subButton="see more inspirational"
+                    />
+                    <Adventures 
+                    imageName={adventure2}
+                    categoryHeader="destination guides"
+                    titleHeader="5 of the Coldest Destinations on Earth"
+                    tileDescription="If you’re up for a little adventure this winter, you’ll find it in some of the most extreme climates on Earth."
+                    className="adventure-display"
+                    subButton="see more destination guides"
+                    />
+                    <Adventures 
+                    imageName={adventure3}
+                    categoryHeader="how to guides"
+                    titleHeader="How to Pack Lightly for a Winter Trip"
+                    tileDescription="Follow these tips so that you don’t overpack for your next winter excursion."
+                    className="adventure-display"
+                    subButton="see more how to guides"
+                    />
+                </div>
                 </div>
                 
         )

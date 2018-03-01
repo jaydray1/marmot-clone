@@ -17,7 +17,7 @@ const Nav = _ => {
                     <span>Free Expedited Shipping and Free Returns</span>
                 </div>
                 <div className="top-right">
-                    <div className="top-right-dropdown"></div><div>Find Stores</div><div>My Account</div><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                    <div className="top-right-dropdown"></div><div>Inside Marmot</div><div>Find Stores</div><div>My Account</div><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
                 </div>
             </div>
 

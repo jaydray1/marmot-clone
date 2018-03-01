@@ -1,9 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Adventures extends Component {
-    render() {
+import '../Adventures/Adventures.css';
+
+export default function Adventures (props) {
         return(
-            <div></div>
+            <div className="tiles-wrapper">
+                    <img src={props.imageName} alt="adventures banner" className="ad-tile"/>
+                    <div className="left-box"></div>
+                    <div className="right-box">
+                    <div className="content-wrapper">
+                            <p className="category-header">{props.categoryHeader}</p>
+                            <h1 className="title-header">{props.titleHeader}</h1>
+                            <p className="tile-description">{props.tileDescription}</p>
+                            <div className="button-group">
+                                <button className="button1"> Read More </button>
+                                <button className="button2">{props.subButton}</button>
+                            </div>
+                        </div>
+                    </div>
+                        
+            </div>
         )
-    }
 }
