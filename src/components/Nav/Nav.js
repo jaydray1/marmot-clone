@@ -17,7 +17,22 @@ const Nav = _ => {
                     <span>Free Expedited Shipping and Free Returns</span>
                 </div>
                 <div className="top-right">
-                    <div className="top-right-dropdown"></div><div>Inside Marmot</div><div>Find Stores</div><div>My Account</div><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                    {/* <div className="top-right-dropdown"></div> */}
+                    <div className="dropdown">Inside Marmot
+                    <i className="fa fa-caret-down"></i>
+                    <div className="dropdown-content">
+                        <div>
+                            <p>our story</p>
+                            <p>In April 1971, University of California Santa Cruz students Eric Reynolds and Dave Huntley were in Alaska's Juneau Icefield on a school Glaciology project. It was there on a glacier that the idea of a Marmot Club began.
+
+</p>
+                            <p> read more </p>
+                        </div>
+                        <div>Link 2</div>
+                        <div>Link 3</div>
+                        </div>
+                    </div>
+                    <a href="#">Find Stores</a><a href="#">My Account</a><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
                 </div>
             </div>
 
@@ -42,7 +57,8 @@ const Nav = _ => {
                     </Link>
                 </ul>
             </div>
-            <span className="nav-filler"></span>
+            {/* <span className="nav-filler"></span> */}
+            <input type="text" placeholder="Search..." className="search"/>
             </div>
         </div>
         )

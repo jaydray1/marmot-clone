@@ -18,7 +18,7 @@ const Landing = () => {
         return (
             <div className="main">
                 <img src={marmotGif} alt="main-big" className="big-banner"/> 
-                
+                <button className="more-button">read more</button>
                     <div className="main-sub-3">
                     
                     <img src={backBox} alt="back" className="back-box"/>
