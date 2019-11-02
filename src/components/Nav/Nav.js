@@ -32,7 +32,7 @@ const Nav = _ => {
                         <div>Link 3</div>
                         </div>
                     </div>
-                    <a href="#">Find Stores</a><a href="#">My Account</a><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                    <a href="/">Find Stores</a><a href="/">My Account</a><div><i className="fa fa-shopping-bag" aria-hidden="true"></i></div>
                 </div>
             </div>
 
